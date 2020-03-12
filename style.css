@@ -1,0 +1,196 @@
+:root{
+    --fuentePrincipal: 'Montserrat', sans-serif;
+    --azul: #0264fb;
+    --amarillo: #ffb03a;
+    --negro: #000000;
+    --gris: #4b4b4b;
+    --blanco: #ffffff;
+    --fondo: #EFECEC;
+}
+
+body{
+    background: var(--fondo);
+}
+
+.container h1, h2, p {
+    color: var(--blanco);
+    display: flex;
+}
+
+header{
+    background-color: var(--azul);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 12%;
+}
+
+.menup li{
+
+    display: inline-block;
+    padding: 0em 0.5em ;
+}
+
+.reg{
+    display: inline-block;
+    cursor: pointer;
+    align-items: center;
+    border: 0.50em solid var(--amarillo);
+    background-color: var(--amarillo);
+    transform: scale(1.1);
+    padding: 0.652em;
+    border-radius: 0.652em;
+}
+
+ 
+.container li{
+    display: inline-block;
+    cursor: pointer;
+    align-items: center;
+    border: 0.50em solid var(--amarillo);
+    background-color: var(--amarillo);
+    transform: scale(1.1);
+    padding: 0.072em;
+    border-radius: 0.652em;
+    
+}
+
+
+.container p {
+    color: var(--blanco);
+    font-size: 5.0em;
+}
+
+.container h2 {
+    font-size: 2.5em;
+}
+
+.container p {
+    font-size: 1.0em;
+}
+
+.name {
+    cursor: pointer;
+}
+
+li a{
+    color: var(--blanco);
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--azul);
+}
+
+.minfooter {
+    width: 100%;
+    height: 6.25em;
+}
+
+.minicurva {
+    width: 100%;
+    height: 10.25em;
+    margin-top: -5em;
+}
+
+
+.textplan {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.textplan h3{
+    color: var(--azul);
+    font-size: 3em;
+    text-align: center;
+}
+.textplan p{
+    color: var(--negro);
+    font-size: 1.1em;
+    text-align: auto;
+}
+
+
+.planes h2, p{
+    color: black;
+    text-align: center;
+}
+
+.planes h3 {
+    color: var(--azul);
+    text-align: center;
+}
+
+
+.planes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.planesdentro p{
+    text-align: center;
+}
+
+.planesdentro hr{
+    margin-top: 6em;
+}
+
+.planesdentro h4 {
+    text-align: center;
+}
+
+.planesdentro {
+    padding: 0.652em;
+    border-radius: 1em;
+    border: 0.0625em solid ;
+}
+
+
+.planes :hover {
+    background-color: var(--amarillo);
+    transform: scale(1.1) solid;
+}
+
+.caracteristicas {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 0;
+    padding: 0.652em;
+    margin: auto;
+}
+
+.c1 h2{
+   color: var(--azul);
+   padding-left: 0.652em;
+}
+
+.c1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0.652em;
+    border: 0.0625em solid ;
+    padding: 0.652em;
+    flex: auto;
+}
+
+.footer{
+    background: var(--blanco);
+    height: 400px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.footer h2 {
+    color: var(--azul);
+}
+
+
+
+
